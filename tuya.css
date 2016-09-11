@@ -1,0 +1,13 @@
+body{padding:0;margin:0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 13px;}
+img{vertical-align: middle;border:none;}
+a{text-decoration: none;color:#333;}
+
+#homePage{width:16rem;margin:0 auto;}
+.row{margin:18px 0;text-align: center;}
+.homeImg{width:90%;}
+.row a{display:inline-block;border-radius: 2px;height:50px;line-height: 50px;}
+.drow{width:90%;color:#fff;background: #2ecc71;text-align: center;overflow: hidden;zoom:1;}
+.drow span{display:inline-block;width:13px;height:13px;background: url(./img/pen.jpg) no-repeat;margin:0 4px 0;}
+.left,.right{width:42%;border:1px solid #333;}
+.left{float:left;margin-left: 5%;}
+.right{float:right;margin-right: 5%;}

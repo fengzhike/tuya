@@ -1,0 +1,38 @@
+body{padding:0;margin:0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 13px;background: #f9f9f9;}
+img{vertical-align: middle;border:none;}
+a{text-decoration: none;color:#333;}
+
+#wrap{width:16rem;margin:18px auto 0;}
+#drawBg{margin-left: .5rem;background: url(./img/draw1.png) no-repeat; background-size:100%;border:1px  dashed #666;padding-right:1px;cursor: default;}
+.drawCon{color:#9a9a9a;}
+.row{width:15rem;margin-left: .5rem;margin-top: 18px;}
+#con1{border:none;}
+#con1 div{float:left;height:1.65rem;line-height: 1.65rem;text-align: center;}
+.drawCon div{border:1px solid #9a9a9a;}
+#con1 #strokes{width:7.25rem;text-align: left;margin-right: .3rem;padding-left: .75rem}
+#strokes span{display:inline-block;margin:0 .2rem;}
+#thin{border:1px solid #9a9a9a; border-radius: 10px;width:10px;height:10px;vertical-align: middle;}
+#medium{border:1px solid #9a9a9a; border-radius: 18px;width:18px;height:18px;vertical-align: middle;}
+#thick{border:1px solid #9a9a9a; border-radius: 24px;width:24px;height:24px;vertical-align: middle;}
+.active{background: #7d7d7d;}
+
+#revoke{width:3rem;margin-right: .3rem;}
+#cancle{width:3rem;}
+#color{margin-top: 18px;height:1.65rem;line-height: 1.65rem;padding-left: .75rem;}
+#color span{display:inline-block;width:1.2rem;height:1.2rem;border-radius: 4px;margin-left: .5rem;vertical-align: middle;border:1px solid #ccc;}
+#color span:nth-child(1){background-color: #fff;}
+#color span:nth-child(2){background-color: #fb9701;}
+#color span:nth-child(3){background-color: #21a8e7;}
+#color span:nth-child(4){background-color: #2fc;}
+#color span:nth-child(5){background-color: #2ecc71;}
+#color span:nth-child(6){background-color: #222;}
+#color .checked{background-image: url(img/check.png);background-size: .8rem;background-repeat: no-repeat;background-position: center;}
+
+#finish a{width:6.8rem;border-radius: 5px;height:2rem;border-width: 2px;border-style: solid;color:#fff;line-height: 2rem;text-align: center;}
+#finish a:nth-child(1){float:left;border-color: #0ca0e5;background:#21a8e7;}
+#finish a:nth-child(2){float:right;border-color: #18c762;background: #2ecc71;}
+#finish a span{display:inline-block;width:15px;height:12px;background-size: 15px;vertical-align: middle;margin-right: .5rem;}
+#finish a:nth-child(1) span{background-image: url(img/eye.jpg);}
+#finish a:nth-child(2) span{background-image: url(img/yu.jpg);}
+
+.clearFix:after{content:'';display:block;clear:both;}
