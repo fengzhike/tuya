@@ -68,6 +68,7 @@
                     var t = e.clientY;
                     oCx.lineTo(l-oDrawBg.offsetLeft, t-oDrawBg.offsetTop);
                     oCx.stroke();
+                    return false
                 };
                 document.ontouchend = function(){
                     oCx.closePath();
